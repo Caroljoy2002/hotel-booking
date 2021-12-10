@@ -14,19 +14,22 @@ html,body{
       height: 60px;
       width: 60px;
   }
-  .hotel-img{
-      height: 200px;
-      width: 250px;
-  }
+  /* .hotel-img{
+    height: 200px;
+    width: 250px;
+}
+} */
+  
   .socialmedia-img{
       height: 20px;
       width: 22px;
   } 
-
+  
 header{
     background-color: rosybrown;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     align-items: center;
     top:0;
     width: 100%;
@@ -35,28 +38,27 @@ header{
 footer{
    background-color: rosybrown;
    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position:sticky;
-    bottom: 0;
-    font-family: 'Ubuntu',sans-serif;
+   justify-content: space-between;
+   width: 100%;
+   position:sticky;
+   bottom: 0;
+   font-family: 'Ubuntu',sans-serif;
+   height: 50px;
 }
-.pic-hotel{
+/* .pic-hotel{
     margin: 2%;
     background-color:  rgb(132,136,139);
     width: 40%;
-} 
-login{
+} */
+.login{
     color: black;
     text-decoration: none;
     margin-right: 2%;
    }
 
-#copyright{
-    margin-top: 50px;
-    }
+
     #contactus{
-    margin-top: 20px;
+   
     margin-left:2%;
     }
     #contact-us{
@@ -64,7 +66,7 @@ login{
         text-decoration: none;  
     }
     #socialicon{
-        margin-top: 20px;
+       
         margin-right: 2%;
     }
     #list-view{
@@ -102,7 +104,7 @@ login{
         padding: 2% 2%;
     }
     .List-Item{
-        background-color: rgb(132,136,139);
+        background-color: lightgrey;
         margin: 2% 5%;
         width: 40%;
         float: left;
